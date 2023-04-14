@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 80px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.heading-1{
+    padding-left: 10px;
+}
+
+.heading-2{
+    display: flex;
+    gap: 20px;
+}
+
+.heading-3{
+    display: flex;
+    gap: 12px;
+    padding-right: 10px;
+}
+
+.heading-3 button{
+    background-color: lightgray;
+    color: red;
+    border-color: transparent;
+    border-radius: 4px;
+}
+
+.blue-background-part{
+    height: 70px;
+    background-color:rgb(74, 74, 162);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    border-top: 2px solid red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.blue-background-part-2{
+    display: flex;
+    gap: 20px;
+}
+
+.green-background-part{
+    background-color: darkseagreen;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap:5px;
+}
+
+.boyHead{
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+}
+
+.green-background-part-start-bootstrap{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.green-background-line{
+    background-color: white;
+    height: 2px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.green-background-star-and-lines{
+    display: flex;
+    gap:10px;
+}
+
+.green-background-star{
+    position: relative;
+    bottom: 10px;
+}
+
+.portfolio-part{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.word-portfolio{
+    font-weight: bold;
+}
+
+.portfolio-part-line{
+    background-color: black;
+    height: 2px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.portfolio-part-star-and-lines{
+    display: flex;
+    gap:10px;
+}
+
+.portfolio-part-star{
+    position: relative;
+    bottom: 10px;
+}
+
+.portfolio-picture{
+    height: 150px;
+    width: 150px;
+}
+
+.portfolio-part-images{
+    display: flex;
+    gap:60px;
+}
+
+.about-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    background-color: darkseagreen;
+    height: 360px;
+    color: white;
+}
+
+.about-part-texts{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 750px;
+}
+
+.word-about{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.about-part-button{
+    height: 45px;
+    width: 160px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: transparent;
+    color: white;
+}
+
+.button-div{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.form{
+    width: 500px;
+}
+
+.contact-me-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+    gap: 15px;
+}
+
+.mb-3{
+
+}
+
+.btn-success{
+    position: relative;
+    right: 218px;
+}
+
+.contact-me-word{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.footer-heads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 200px;
+    background-color: rgb(74, 74, 162);
+    gap:50px;
+}
+
+.footer-head-bold-word{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-head-1{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 200px;
+}
+
+.footer-head-2{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 200px;
+    position: relative;
+    bottom: 18px;
+}
+
+.footer-head-3{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 200px;
+    position: relative;
+    top: 21px;
+}
+
+.footer-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.footer-foot{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-footer-foot{
+    position: relative;
+    top: 8px;
+}
